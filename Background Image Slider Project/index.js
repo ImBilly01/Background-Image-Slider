@@ -37,3 +37,5 @@ right.addEventListener('click', () => {
     document.body.style.backgroundPosition = 'center';
     document.body.style.backgroundSize = '100%';
 });
+
+window.addEventListener('DOMContentLoaded', (event) => left.click());
